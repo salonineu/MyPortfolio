@@ -1,4 +1,5 @@
 import logo from "./logo-no-background.svg";
+import salonilogo from "../assets/salonilogo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -34,6 +35,7 @@ import portfolio from "./portfolio.png";
 import tripguide from "./tripguide.png";
 
 export {
+  salonilogo,
   logo,
   backend,
   creator,

@@ -1,12 +1,15 @@
 import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+//const loader = new THREE.ImageLoader();
 
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
-   const computer = useGLTF("./desktop_pc/scene.gltf");
-  //const computer = useGLTF("./programmer/scene.gltf");
+
+
+  const computer = useGLTF("./desktop_pc/scene.gltf");
+  //const computer = loader.load("/src/assets/salonilogo.png");
 
   return (
     <mesh>

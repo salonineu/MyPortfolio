@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { salonilogo, menu, close } from "../assets";
+
 
 const Hero = () => {
   return (
@@ -26,7 +28,12 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas />
+      <div className={`${styles.saloni}`}  >
+        <img src={salonilogo} alt='salonilogo' scale={0.75}
+        position={[0, -3.25, -1.5]} rotation={[-0.01, -0.2, -0.1]}/>
+      </div>
+      
+      {/* <ComputersCanvas /> */}
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
