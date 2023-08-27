@@ -1,11 +1,12 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-
+import { resumeImg } from "../assets";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+
 
 const Contact = () => {
   const formRef = useRef();
@@ -14,6 +15,10 @@ const Contact = () => {
     email: "",
     message: "",
   });
+
+  
+    
+      
 
   const [loading, setLoading] = useState(false);
 
@@ -26,6 +31,7 @@ const Contact = () => {
       [name]: value,
     });
   };
+
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -72,10 +78,14 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75]  p-8 rounded-2xl'
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
-
-        <form
+        <p className={styles.sectionSubText}>Please have a glance at my resume</p>
+        <h3 className={styles.sectionHeadText}>Resume</h3>
+        <a href="https://dochub.com/talwar-sa/6mO8oy7Kp2AW7jPwqg5p9J/saloniresume-pdf?dt=EbVPSQbB1xC61Msnprvy" target={"_blank"}>
+          <img src={resumeImg} alt='resumeImg' scale={0.75}
+    position={[0, -3.25, -1.5]} rotation={[-0.01, -0.2, -0.1]}/>
+          
+        </a>
+        {/* <form
           ref={formRef}
           onSubmit={handleSubmit}
           className='mt-12 flex flex-col gap-8'
@@ -120,7 +130,7 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
-        </form>
+        </form> */}
       </motion.div>
 
       <motion.div

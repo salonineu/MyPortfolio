@@ -22,6 +22,7 @@ import {
   shopify,
   carrent,
   ieltstar,
+  EventBooking,
   jobit,
   portfolio,
   tripguide,
@@ -39,7 +40,7 @@ export const navLinks = [
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "Resume",
   },
 ];
 
@@ -50,11 +51,15 @@ const services = [
   },
   {
     title: "Frontend Developer",
-    icon: backend,
+    icon: web,
   },
   {
     title: "Software Developer",
-    icon: creator,
+    icon: web,
+  },
+  {
+    title: "Cloud Developer",
+    icon: web,
   },
 ];
 
@@ -252,6 +257,27 @@ const projects = [
     ],
     image: portfolio,
     source_code_link: "https://github.com/salonineu/MyPortfolio",
+  },
+  {
+    name: "Event Booking",
+    description:
+      "JavaFX based events and booking management application",
+    tags: [
+      {
+        name: "JavaFX",
+        color: "blue-text-gradient",
+      },
+      // {
+      //   name: "threejs",
+      //   color: "green-text-gradient",
+      // },
+      // {
+      //   name: "tailwind",
+      //   color: "pink-text-gradient",
+      // },
+    ],
+    image: EventBooking,
+    source_code_link: "https://dochub.com/talwar-sa/xP5LzojKa8621yXR7ZDlO3/ood-eventmanagement-techtitans-pdf?dt=BhT3-9DJxzu8PaBqvW9n",
   },
   // {
   //   name: "Trip Guide",

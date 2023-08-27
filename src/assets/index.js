@@ -7,7 +7,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import resumeImg from "./resumeImg.png"
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -30,6 +30,7 @@ import deloitte from "./company/deloitte.png"
 
 import carrent from "./carrent.png";
 import ieltstar from "./ieltstar.png"
+import EventBooking from "./EventBooking.png"
 import jobit from "./jobit.png";
 import portfolio from "./portfolio.png";
 import tripguide from "./tripguide.png";
@@ -64,6 +65,8 @@ export {
   deloitte,
   carrent,
   ieltstar,
+  EventBooking,
+  resumeImg,
   jobit,
   portfolio,
   tripguide,
