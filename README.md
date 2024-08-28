@@ -17,7 +17,7 @@ I'm Saloni Talwar, a passionate grad student specializing in full-stack developm
 
 ## 🛠️ Technologies Used
 
-- **Front-End:** HTML5, CSS3, JavaScript, React.js, Next.js
+- **Front-End:** HTML5, CSS3, JavaScript, React.js, Next.js, Three.js
 - **Back-End:** Node.js, Express.js
 - **Styling:** Styled-components, Tailwind CSS
 - **Deployment:** Vercel, Netlify
