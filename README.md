@@ -1,6 +1,6 @@
 # Saloni Talwar - Portfolio Website
 
-![https://salonitalwar.com/]
+[https://salonitalwar.com/]
 
 Welcome to the repository for my personal portfolio website! This is where I showcase my skills, experience, and projects as a Software Developer.
 
